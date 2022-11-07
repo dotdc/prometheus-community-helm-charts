@@ -6403,6 +6403,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.6.0
+    created: "2022-11-07T22:28:00.072977472Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 43ecc4bf5e284692a19d9042a5cd67888a100c4102ec8778cbab3200a73f8824
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: david@0xdc.me
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://github.com/dotdc/prometheus-community-helm-charts/releases/download/kube-state-metrics-4.22.3/kube-state-metrics-4.22.3.tgz
+    version: 4.22.3
+  - apiVersion: v2
+    appVersion: 2.6.0
     created: "2022-11-01T07:59:39.79495603Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 96a094a0038fdd8333e98b23f08542749a68a9cf3a71fd112ddbb9d44110480d
@@ -34170,4 +34195,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-02T16:07:40.492220829Z"
+generated: "2022-11-07T22:28:00.07618361Z"
